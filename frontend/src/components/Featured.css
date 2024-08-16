@@ -1,0 +1,18 @@
+
+.featured{
+    /* background-color: rgb(224, 218, 218); */
+    min-height: 80vh;
+    padding-bottom: 30px;
+}
+
+.featured-title{
+    margin: 10px 0 50px;
+}
+
+.project-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}

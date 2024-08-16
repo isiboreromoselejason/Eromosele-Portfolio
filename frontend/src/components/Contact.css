@@ -1,0 +1,127 @@
+
+.contact{
+    width: 100%;
+    min-height: 80vh;
+    padding-top: 20px;
+    margin: 10px 0 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact-title{
+    font-size: 2rem;
+    text-align: left;
+}
+
+.contact-paragraph{
+    font-size: 1em;
+    text-align: left;
+    width: 80%;
+}
+
+.contact-content{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.icon-image{
+    width: 40px;
+    height: 40px;
+}
+
+.contact-form{
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    height: 80px;
+    background-color: white;
+    border: 1px solid rgb(207, 206, 206);
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 17px;
+}
+
+input::placeholder{
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+
+textarea{
+    background-color: white;
+}
+
+#message{
+    height: 250px;
+    padding: 10px 30px;
+    border: 1px solid rgb(207, 206, 206);
+    font-size: 17px;
+    color: black;
+}
+
+.contact-btn{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    height: 80px;
+}
+
+.contact-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.contact-btn:active{
+    background-color: white;
+    color: black;
+    border: 1px solid orange;
+    transform: translateY(4px);
+}
+
+
+@media screen and (max-width: 850px) {
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact-title{
+        text-align: center;
+    }
+
+    .icons{
+        justify-content: center;
+    }
+
+    .contact-paragraph{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contact-content, .contact-form{
+        flex: 1;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,39 @@
+
+.about{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    min-height: 80vh;
+    padding: 0 35px;
+}
+
+.about .title, .title{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    height: fit-content;
+    margin: 20px 0 15px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 500;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+/* .experience{
+    margin: 10px 0 40px;
+} */
+
+.experience-date{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+}
