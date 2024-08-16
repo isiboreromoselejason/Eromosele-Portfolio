@@ -7,7 +7,7 @@ export const Featured = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    fetch("https://portfolio-server-two-rose.vercel.app/projects")
+    fetch("https://eromosele-portfolio-server.vercel.app/projects")
       .then((response) => {
         setLoading(true);
         return response.json();
